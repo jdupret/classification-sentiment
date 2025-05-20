@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ```bash
 python demo.py
 
-Adresse : [http://localhost:7860](http://localhost:7860)
+Adresse : http://localhost:7860
 ```
 ---
 
