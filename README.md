@@ -20,10 +20,10 @@ classification-sentiment/
 ├── demo.py                       # Interface utilisateur avec Gradio
 ├── requirements.txt              # Dépendances Python
 └── README.md                     # Rapport
-
+```
 ---
 ## Entraînement du modèle
-
+```
 Le modèle utilise :
 
 - `BertForSequenceClassification` (base : `bert-base-uncased`)
@@ -35,7 +35,7 @@ Le modèle est sauvegardé dans `model/model.pt`.
 
 ```
 
-### 1. Depot du projet avec Git LFS
+### Depot du projet avec Git LFS
 
 ```bash
 git clone https://github.com/jdupret/classification-sentiment.git
@@ -44,13 +44,13 @@ git lfs install
 git lfs pull
 ```
 
-### 2. Installer les dépendances
+### Installer les dépendances
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Lancer l’interface Gradio
+### Lancer l’interface Gradio
 
 ```bash
 python demo.py
