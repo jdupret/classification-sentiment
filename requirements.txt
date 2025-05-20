@@ -1,5 +1,6 @@
 transformers
 torch
-scikit-learn
 pandas
+scikit-learn
 gradio
+tqdm
