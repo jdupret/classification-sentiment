@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ```bash
 python demo.py
-```
+
 Adresse : [http://localhost:7860](http://localhost:7860)
 ```
 ---
@@ -63,14 +63,13 @@ Adresse : [http://localhost:7860](http://localhost:7860)
 ```
 Texte  : I love this product! Highly recommended.
 Sentiment : positive
-
 ```
 
 ---
 
 ## Remarques
----
+```
 - Le fichier `model.pt` est **stocké avec Git LFS** (car > 100 Mo).
 - Pour réentraîner le modèle ou le mettre à jour, exécute `train.py`.
-
+```
 ---
